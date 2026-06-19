@@ -1,0 +1,15 @@
+# IntelliJ
+.idea/
+
+# Maven
+backend/target/
+
+# Node
+frontend/node_modules/
+
+# Environment files
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
