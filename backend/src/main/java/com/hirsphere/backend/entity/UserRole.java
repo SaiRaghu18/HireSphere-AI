@@ -1,9 +1,7 @@
 package com.hirsphere.backend.entity;
 
 public enum UserRole {
-
-    CANDIDATE,
-
-    RECRUITER
-
+    JOB_SEEKER,
+    RECRUITER,
+    ADMIN
 }

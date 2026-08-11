@@ -32,4 +32,11 @@ public class AuthController {
 
     }
 
+    @GetMapping("/health")
+    public ResponseEntity<java.util.Map<String, String>> health() {
+        java.util.Map<String, String> response = new java.util.HashMap<>();
+        response.put("status", "UP");
+        response.put("service", "HireSphere.ai");
+        return ResponseEntity.ok(response);
+    }
 }

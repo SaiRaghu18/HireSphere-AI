@@ -1,14 +1,24 @@
-# IntelliJ
+# IntelliJ / IDE
 .idea/
+.vscode/
 
-# Maven
+# Maven / Java
 backend/target/
+*.jar
+*.war
 
-# Node
+# Uploads / Persistent Attachments
+uploads/
+backend/uploads/
+
+# Node / Vite
 frontend/node_modules/
+frontend/dist/
 
-# Environment files
+# Environment & Log files
 .env
+*.env
+*.log
 
 # OS files
 .DS_Store
